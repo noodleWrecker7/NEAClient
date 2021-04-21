@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="75.0" layoutY="106.0" prefHeight="328.0" prefWidth="811.0" text="Loading..." textAlignment="CENTER">
+         <font>
+            <Font name="GeoSlab703 Md BT Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="629.0" layoutY="516.0" prefHeight="24.0" prefWidth="331.0" text="Developed by Adam Hodgkinson" textAlignment="CENTER">
+         <font>
+            <Font name="GeoSlab703 Md BT Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
