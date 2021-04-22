@@ -2,6 +2,7 @@ package dev.adamhodgkinson;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import org.xml.sax.SAXException;
@@ -22,6 +23,7 @@ public class App extends javafx.application.Application {
         stage.setScene(root);
         ScreenManager.setRootScene(root);
         ScreenManager.activate("loading.fxml");
+        ImageView img = new ImageView();
     }
 
     private void load() { // for loading of all files: fxml, textures, levels etc
